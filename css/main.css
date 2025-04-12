@@ -1,0 +1,54 @@
+body { 
+  margin: 0; 
+  font-family: Arial, sans-serif;
+  padding-top: 10px; 
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+#map { 
+  height: 60vh; 
+  width: 100%; 
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.tab-content {
+  padding: 15px;
+  border: 1px solid #dee2e6;
+  border-top: none;
+  border-radius: 0 0 8px 8px;
+  background-color: #fff;
+  margin-bottom: 20px;
+}
+
+.traffic-list { 
+  max-height: 300px; 
+  overflow-y: auto; 
+}
+
+.traffic-item { 
+  border-bottom: 1px solid #ccc; 
+  padding: 10px 0; 
+}
+
+.place-card { 
+  margin-bottom: 15px; 
+}
+
+#elevationChart { 
+  height: 500px !important; /* Fixed height */
+  width: 100% !important;  /* Full width of parent */
+  margin-top: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  display: block; /* Ensure canvas is block-level */
+}
+
+.input-group {
+  margin-bottom: 10px;
+}
